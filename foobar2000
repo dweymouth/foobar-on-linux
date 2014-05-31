@@ -1,0 +1,20 @@
+#!/bin/bash
+# Command-line interface to a Wine installation of foobar2000
+# Written by Drew Weymouth
+
+# Location of foobar2000 installation
+FOOBAR_HOME="%FOOBAR_HOME"
+
+# Go through args, convert paths to existing files to Windows-style
+i=0 args=()
+for arg in "$@"; do
+	if [ -e "$arg" ]; then
+		args[$i]=`winepath -w "$arg"`
+	else
+		args[$i]="$arg"
+	fi
+	((++i))
+done
+
+# Call foobar; ignore error messages printed by Wine
+wine "$FOOBAR_HOME/foobar2000.exe" "${args[@]}" 2>/dev/null &

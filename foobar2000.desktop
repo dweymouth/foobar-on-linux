@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=foobar2000
+GenericName=Plays Music
+Comment=Plays music
+Type=Application
+Exec=%BIN/foobar2000
+Terminal=false
+StartupNotify=true
+MimeType=audio/basic;audio/vnd.wav;audio/x-wav;audio/x-aiff;audio/ogg;audio/vorbis;audio/mpeg;audio/mp4;audio/aac
+Categories=AudioVideo;Audio;Player
+Icon=%ICON_DIR/foobar2000.png
