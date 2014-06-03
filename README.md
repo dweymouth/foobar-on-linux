@@ -10,6 +10,7 @@ Features
 
 - Command-line interface (`foobar2000`) supporting the same switches/options as the Windows version
 - Applications menu launcher with icon
+- Context menu integration ("Open with foobar2000") for popular file managers
 - Installation for single user or all users
 
 Installation
@@ -33,6 +34,6 @@ Todo
 ----
 
 - Bash completion for the `foobar2000` script
-- Add "Open with foobar2000" to context menu for audio files in Nautilus, Nemo, etc.
+- Add more MIME types to the desktop entry (cue sheet, m3u playlist, etc.)
 
 Feel free to fork and pull!
