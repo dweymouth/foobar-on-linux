@@ -27,13 +27,14 @@ Installation
 
 1. Clone the git repository (`git clone https://github.com/dweymouth/foobar-on-linux.git`)
 2. `cd foobar-on-linux` and run `sudo ./install.sh` to install for all users or `./install.sh` to install for just you<br/>
-(**Note:** install.sh searches for foobar2000's installation directory within $HOME. If foobar2000 was not installed in your home directory tree, you must run `[sudo] install.sh /path/to/foobar/dir`)
+(**Note:** install.sh searches for foobar2000's installation directory within $HOME. If foobar2000 was not installed in your home directory tree, you must run `[sudo] ./install.sh /path/to/foobar/dir`)
 3. To uninstall foobar-on-linux, run `[sudo] ./uninstall.sh`
 
 Todo
 ----
 
 - Bash completion for the `foobar2000` script
-- Add more MIME types to the desktop entry (cue sheet, m3u playlist, etc.)
+- Add more MIME types to the desktop entry (cue sheet, etc.)
+- Register MIME types for foobar2000-specific file formats (.fpl, etc.)
 
 Feel free to fork and pull!
