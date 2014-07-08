@@ -9,6 +9,7 @@ Features
 --------
 
 - Command-line interface (`foobar2000`) supporting the same switches/options as the Windows version
+- Automatic and transparent conversion from UNIX to Windows paths
 - Applications menu launcher with icon
 - Context menu integration ("Open with foobar2000") for popular file managers
 - Installation for single user or all users
